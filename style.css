@@ -16,12 +16,25 @@ ul, ol, li{
 
 body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    padding-inline: 80px;
+    flex-direction: column; /*Objetos empilhados em colunas*/
 }
 header{
     height: 200px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 96px;
+    width: 96px;
+    background-color: lightgray;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 main {
     flex-grow: 1;
