@@ -19,6 +19,8 @@ body {
     display: flex; 
     padding-inline: 80px;
     flex-direction: column; /*Objetos empilhados em colunas*/
+    background: linear-gradient(rgb(23, 1, 1), rgb(62, 4, 4), rgb(86, 7, 7));
+    background-size: cover;
 }
 header{
     height: 200px;
@@ -27,14 +29,21 @@ header{
     align-items: center;
 }
 .logo{
-    height: 96px;
-    width: 96px;
-    background-color: lightgray;
+    height: 110px;
+    width: 300px;
+    background-image: url(./img/logo.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: 65%;
 }
 .menu ul{
     display: flex;
     gap: 32px;
     font-size: 32px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgba(172, 160, 160, 0.721);
+
 }
 main {
     flex-grow: 1;
@@ -47,17 +56,30 @@ main {
     justify-content: space-between;
 }
 .conteudo h1{
-    font-size: 96px;
+    font-size: 76px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgba(172, 160, 160, 0.721);
 }
+
 .conteudo p{
-    width: 48%;
-    font-size: 32px;
+    width: 46%;
+    font-size: 26px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgba(172, 160, 160, 0.721);
 }
 .acao button{
     height: 80px;
     width: 300px;
-    background-color: black;
-    color: white;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(52, 9, 9);
+    color: rgb(120, 111, 111);
     font-size: 32px;
 }
 .social{
@@ -70,14 +92,21 @@ main {
     width: 96px;
     background-color: lightgray;
     border-radius: 50%;
+    
 }
 .destaque{
     width: 50%;
-    background-color: lightgrey;
+    background-image: url(./img/diablo.jpn.jpg);
+    background-repeat: no-repeat no-repeat;
 }
 footer{
     height: 100px;
     display: flex;
+    font-size: 15;
     justify-content: center;
     align-items: center;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgba(172, 160, 160, 0.721);
 }
